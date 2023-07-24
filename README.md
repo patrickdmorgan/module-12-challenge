@@ -56,3 +56,21 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 ## Repository
 https://github.com/patrickdmorgan/module-12-challenge
+
+## Sources
+
+https://www.stackoverflow.com
+Chris B- Central tutor support GW schools
+
+video hosting:
+https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide
+
+how to screen record on mac book: 
+https://youtu.be/BK6xMWFW1-E
+
+how to share a video: 
+https://youtu.be/6LMZxKG-qW0
+
+
+
+
