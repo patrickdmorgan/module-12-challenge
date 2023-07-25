@@ -32,20 +32,20 @@ function firstPrompt() {
       .prompt({
         type: "list",
         name: "task",
-        message: "Would you like to do?",
+        message: "What would you like to do?",
         choices: [
           "View Departments",
-          "Add Department",
           "View Employees",
           "View Roles",
-          "Update Employee Manager",
           "View Employees by Department",
           "View Employees by Manager",
+          "Add Department",
           "Add Employee",
-          "Remove Employee",
-          "Update Employee by Role",
           "Add Role",
+          "Remove Employee",
           "Remove Role",
+          "Update Employee Manager",
+          "Update Employee by Role",
           "End"]
       })
       .then(function ({ task }) {
@@ -55,16 +55,16 @@ function firstPrompt() {
             viewDepartments();
             break;
 
-          case "Add Department":
-            addDepartment();
-            break;
-          
           case "View Employees":
             viewEmployees();
             break;
 
           case "View Roles":
             viewRoles();
+            break;
+
+          case "Add Department":
+            addDepartment();
             break;
   
           case "Update Employee MAnager":
@@ -122,7 +122,7 @@ function firstPrompt() {
   }
 
   function addDepartment() {
-    console.log("Inserting an department!")
+    console.log("Insert department!")
 
     inquirer
     .prompt([
